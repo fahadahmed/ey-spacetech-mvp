@@ -2,13 +2,12 @@ import { ClientOnly } from 'remix-utils';
 import type { LinksFunction } from '@remix-run/node';
 import { Canvas } from "~/components";
 import carbonStyles from "@carbon/charts/styles.css";
-
-import { canvasLinks } from '~/components/Canvas/Canvas.client';
+import canvasStyles from '~/components/Canvas/canvas.styles.css';
 
 export const links: LinksFunction = () => {
   return [
     { rel: 'stylesheet', href: carbonStyles },
-    ...canvasLinks()
+    { rel: 'stylesheet', href: canvasStyles }
   ]
 }
 export default function Index() {
