@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@carbon/charts": "^1.6.1",
+    "@carbon/charts-react": "^1.6.1",
+    "@carbon/react": "^1.17.0",
+    "@remix-run/node": "^1.8.0",
+    "@remix-run/react": "^1.8.0",
+    "@remix-run/serve": "^1.8.0",
+    "classnames": "^2.3.2",
+    "d3-axis": "^3.0.0",
+    "d3-brush": "^3.0.0",
+    "d3-ease": "^3.0.1",
+    "d3-hierarchy": "^3.1.2",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "isbot": "^3.6.5",
+    "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "remix-utils": "^4.3.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.8.0",
+    "@remix-run/eslint-config": "^1.8.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@types/shortid": "^0.0.29",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
