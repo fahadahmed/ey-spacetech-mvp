@@ -26,6 +26,7 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "remix-utils": "^4.3.0",
+    "sass": "^1.56.1",
     "shortid": "^2.2.16"
   },
   "devDependencies": {
